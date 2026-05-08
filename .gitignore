@@ -1,0 +1,38 @@
+# Build directories
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+
+# Build results
+*.exe
+*.dll
+*.pdb
+
+# NuGet
+.nuget/
+packages/
+
+# Rider
+.idea/
+*.sln.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local user-specific settings
+.vscode/settings.json
+
+# Temporary files
+*.tmp
+*.log
