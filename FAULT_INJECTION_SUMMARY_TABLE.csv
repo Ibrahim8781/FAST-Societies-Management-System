@@ -1,0 +1,93 @@
+Function Name,Module,CC,Faults Injected,Detected,P(≤1 fault),Reliability Level,Risk Level
+GetStudentEventRegistrations,EventRegistration,1,5,5,96%,EXCELLENT,Very Low
+RegisterForEvent,EventRegistration,2,5,5,96%,EXCELLENT,Very Low
+DeleteAnnouncement,Announcement,1,5,5,96%,EXCELLENT,Very Low
+GetEventRegistrations,EventRegistration,1,5,5,95%,EXCELLENT,Very Low
+GetTicketNumber,EventRegistration,2,5,5,95%,EXCELLENT,Very Low
+IsRegistered,EventRegistration,2,5,5,95%,EXCELLENT,Very Low
+CheckInStudent,EventRegistration,2,5,5,95%,EXCELLENT,Very Low
+GetAnnouncement,Announcement,1,5,5,94%,EXCELLENT,Very Low
+CreateAnnouncement,Announcement,2,5,5,94%,EXCELLENT,Very Low
+CancelRegistration,EventRegistration,2,5,5,94%,EXCELLENT,Very Low
+HashPassword,User,1,5,4,92%,RELIABLE,Low
+CreateTask,TaskAssignment,2,5,5,92%,RELIABLE,Low
+UpdateAnnouncement,Announcement,2,5,5,92%,RELIABLE,Low
+GetAnnouncementsBySociety,Announcement,1,5,5,93%,RELIABLE,Low
+SearchAnnouncements,Announcement,2,5,4,89%,RELIABLE,Low-Medium
+VerifyPassword,User,2,5,4,88%,RELIABLE,Low
+UpdateTask,TaskAssignment,2,5,4,87%,RELIABLE,Low
+GetAllUsers,User,1,5,4,85%,RELIABLE,Low
+DeleteTask,TaskAssignment,1,5,4,84%,RELIABLE,Low
+GetTaskByID,TaskAssignment,2,5,4,83%,RELIABLE,Low
+GetSocietyTasks,TaskAssignment,2,5,4,82%,RELIABLE,Low
+GetMemberByID,SocietyMember,2,5,4,82%,RELIABLE,Low
+GetMemberTasks,TaskAssignment,2,5,4,81%,RELIABLE,Low
+CreateEvent,Event,3,5,4,81%,RELIABLE,Low-Medium
+GetEventByID,Event,2,5,4,80%,RELIABLE,Low
+UpdateEvent,Event,2,5,3,76%,MODERATE,Medium
+Authenticate,User,5,5,3,76%,MODERATE,Medium
+AddMember,SocietyMember,2,5,3,76%,MODERATE,Medium
+UpdateLastLogin,User,2,5,3,74%,MODERATE,Low-Medium
+ApproveEvent,Event,2,5,3,74%,MODERATE,Medium
+ApproveMembership,SocietyMember,2,5,3,74%,MODERATE,Medium
+CreateSociety,Society,2,5,3,74%,MODERATE,Medium
+CancelEvent,Event,2,5,3,75%,MODERATE,Medium
+GetApprovedEvents,Event,2,5,3,73%,MODERATE,Medium
+GetUpcomingEvents,Event,3,5,3,72%,MODERATE,Medium
+GetPendingRequests,SocietyMember,2,5,3,73%,MODERATE,Medium
+RegisterUser,User,2,5,3,72%,MODERATE,Medium
+RejectMembership,SocietyMember,2,5,3,72%,MODERATE,Medium
+UpdateSociety,Society,2,5,3,72%,MODERATE,Medium
+RemoveMember,SocietyMember,2,5,3,71%,MODERATE,Medium
+GetEventsBySociety,Event,2,5,3,71%,MODERATE,Medium
+UpdateProfile,User,2,5,3,71%,MODERATE,Medium
+GetSocietyMembers,SocietyMember,2,5,3,75%,MODERATE,Medium
+GetAllSocieties,Society,1,5,3,70%,MODERATE,Medium
+GetUserByID,User,2,5,3,69%,MODERATE,Medium
+GetSocietyByID,Society,2,5,3,68%,MODERATE,Medium
+GetActiveSocieties,Society,2,5,3,65%,MODERATE RISK,Medium
+UpdateTaskStatus,TaskAssignment,3,5,3,78%,MODERATE,Medium
+CloseConnection,DatabaseConnection,1,5,3,66%,MODERATE RISK,Medium
+ExitButton_Click,LoginForm,1,5,3,64%,MODERATE RISK,Medium
+DeactivateUser,User,3,5,2,62%,MODERATE RISK,Medium
+GetMembershipStatus,SocietyMember,3,5,2,62%,MODERATE RISK,Medium-High
+SuspendSociety,Society,2,5,2,60%,MODERATE RISK,Medium-High
+ApproveSociety,Society,2,5,2,58%,MODERATE RISK,Medium-High
+ChangePassword,User,5,5,2,58%,MODERATE RISK,Medium-High
+GetSocietyHead,Society,2,5,2,56%,MODERATE RISK,Medium-High
+SearchSocieties,Society,3,5,2,55%,MODERATE RISK,Medium-High
+UsernameTextBox_TextChanged,LoginForm,1,5,2,56%,MODERATE RISK,Medium-High
+LoginForm_Load,LoginForm,2,5,2,54%,MODERATE RISK,Medium-High
+GetConnection,DatabaseConnection,2,5,2,52%,MODERATE RISK,Medium-High
+CancelButton_Click,RegistrationForm,1,5,2,50%,HIGH RISK,Medium-High
+ExecuteNonQuery,DatabaseConnection,2,5,2,50%,HIGH RISK,High
+ExecuteQuery,DatabaseConnection,3,5,2,48%,HIGH RISK,High
+LoginButton_Click,LoginForm,5,5,2,48%,HIGH RISK,High
+ValidatePassword,RegistrationForm,3,5,1,39%,POOR,High
+ValidateEmail,RegistrationForm,3,5,1,40%,POOR,High
+RegisterButton_Click,RegistrationForm,4,5,1,38%,POOR,High
+RegistrationForm_Load,RegistrationForm,2,5,1,42%,POOR,High
+CancelRegistrationClick,StudentDashboard,3,5,1,38%,POOR,High
+RegisterForEventClick,StudentDashboard,4,5,1,39%,POOR,High
+UpdateTaskStatusClick,StudentDashboard,3,5,1,37%,POOR,High
+LoadData,StudentDashboard,3,5,1,41%,POOR,High
+StudentDashboard_Load,StudentDashboard,2,5,1,44%,POOR,High
+CreateAnnouncementClick,SocietyHeadDashboard,2,5,1,34%,POOR,High
+RemoveMemberClick,SocietyHeadDashboard,2,5,1,34%,POOR,High
+RejectMembershipClick,SocietyHeadDashboard,2,5,1,36%,POOR,High
+CancelEventClick,SocietyHeadDashboard,2,5,1,33%,POOR,High
+CreateTaskClick,SocietyHeadDashboard,3,5,1,32%,POOR,High
+ApproveMembershipClick,SocietyHeadDashboard,3,5,1,37%,POOR,High
+ApproveEventClick,SocietyHeadDashboard,2,5,1,35%,POOR,High
+LoadData,SocietyHeadDashboard,4,5,1,35%,POOR,High
+SocietyHeadDashboard_Load,SocietyHeadDashboard,2,5,1,36%,POOR,High
+DeleteTaskClick,SocietyHeadDashboard,2,5,1,31%,VERY POOR,Critical
+CancelEventClick,AdminDashboard,2,5,1,32%,POOR,High
+DisableUserClick,AdminDashboard,3,5,1,34%,POOR,High
+AdminDashboard_Load,AdminDashboard,2,5,1,36%,POOR,High
+ApproveSocietyClick,AdminDashboard,2,5,1,34%,POOR,High
+SuspendSocietyClick,AdminDashboard,2,5,1,33%,POOR,High
+ApproveEventClick,AdminDashboard,2,5,1,34%,POOR,High
+GenerateReportClick,AdminDashboard,4,5,1,31%,VERY POOR,Critical
+ExportReportClick,AdminDashboard,3,5,1,29%,VERY POOR,Critical
+LoadData,AdminDashboard,5,5,1,30%,VERY POOR,Critical
